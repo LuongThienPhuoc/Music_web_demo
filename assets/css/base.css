@@ -1,0 +1,23 @@
+
+
+:root{
+    --white-color: #fff;
+    --black-color:#000;
+    --text-color:#333;
+
+}
+
+* {
+    /* kế thừa border-box ở HTML */
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1 rem = 16px */
+    
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
